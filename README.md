@@ -18,5 +18,5 @@ An analytical model for pricing European call and put options. Assumes:
 Simulates thousands of potential paths for the underlying asset and calculates the average payoff discounted at the risk-free rate. Useful for complex path-dependent options.
 
 ### 🔹 Binomial Tree Model  
-Constructs a recombining binomial tree of possible stock prices and evaluates option prices by backward induction. Can handle American and European options.
+Constructs a recombining binomial tree of possible stock prices and evaluates option prices by backward induction. Can handle American and European options but here we will focus only on European option.
 
